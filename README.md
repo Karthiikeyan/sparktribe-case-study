@@ -1,5 +1,11 @@
 # SparkTribe - engineering case study
 
+[![Live](https://img.shields.io/badge/live-sparktribe.in-e8743b)](https://sparktribe.in)
+![Next.js 14](https://img.shields.io/badge/Next.js-14-000)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47a248)
+![Razorpay](https://img.shields.io/badge/payments-Razorpay-0c2451)
+
 [SparkTribe](https://sparktribe.in) is a placement-preparation platform for Tamil-speaking engineering
 students: a 50-day DSA course taught in Tamil, daily practice with spaced revision, DSA and FAANG
 preparation trackers, and paid plans. I founded it, and I designed, built and operate the platform
@@ -120,7 +126,7 @@ money from a test site, the second makes every real checkout fail.
 ## What I would improve next
 
 - **Rate limiting** is in-memory per serverless instance, so it resets on cold starts. It should move to
-  a shared store, as my [personal publishing platform](https://github.com/Karthiikeyan/karthik-digital-studio)
+  a shared store, as my [personal publishing platform, SparkTime](https://github.com/Karthiikeyan/SparkTime)
   already does with an atomic Postgres upsert.
 - **Content Security Policy** still allows `unsafe-inline` and `unsafe-eval` for scripts; moving to
   nonces would tighten it.
