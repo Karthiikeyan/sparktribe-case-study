@@ -24,7 +24,7 @@ no proprietary code, credentials or customer data.
 | Hosting | Vercel, Mumbai region (`bom1`) |
 | Codebase | 51 API route handlers, 29 Mongoose models, 25 admin pages |
 | Tests | 20 test files on Node's built-in test runner; 271 tests pass without a database, plus 10 suites that run against a real throwaway `mongod` |
-| Users | 1,000+ registered accounts (September 2026) |
+| Users | 1,200+ registered learners and 200+ paid members (October 2026) |
 
 ## Architecture
 
